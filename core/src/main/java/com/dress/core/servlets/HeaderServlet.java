@@ -10,6 +10,9 @@ import org.apache.sling.api.SlingHttpServletResponse;
 import org.apache.sling.api.servlets.SlingSafeMethodsServlet;
 import org.osgi.service.component.annotations.Component;
 
+
+
+
 @Component(service = Servlet.class , immediate = true, property = {
 		"sling.servlet.methods=GET",
 		"sling.servlet.paths=/bin/levis/header"})
